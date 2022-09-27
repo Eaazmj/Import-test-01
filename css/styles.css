@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* colours */
+    --purple: #651b20;
+    --white: white;
+    --main: #fae2bc;
+    --hover: white;
+    --text: black;
+    --footer: #fae2bcab;
+
+
+    /* fonts */
+    --reading: "Calibri";
+    --headings: "Centaur";
+    --weclome: "Michland";
+}
+
+/* header */
+/* Create a top navigation bar with a black background color  */
+
+.topnav {
+    background-color: var(--main);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    color: var(--text);
+    font-family: var(--reading);
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: var(--hover);
+    color: var(--text);
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+    float: left;
+    color: white;
+}
+
+.responsiveImg {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+/*image*/
+.logo1 {
+    display: flex;
+    width: 45%;
+    height: auto;
+}
+
+/*end of the header*/
+
+/*body*/
+
+#homepage {
+    background-image: url("../images/Background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#welcome {
+    font-family: var(--weclome);
+    font-size: 80px;
+    margin: 100px 0px 1px 150px;
+}
+
+#name {
+    font-family: var(--headings);
+    font-size: 80px;
+    margin: 0px 0px 30px 230px;
+}
+
+#description {
+    font-family: var(--reading);
+    font-size: 20px;
+    padding-left: 230px;
+}
+
+#menu li {
+    width: 33%;
+}
+
+#footer {
+    margin-bottom: 0px;
+    margin-top: 150px;
+    width: auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--reading);
+    font-size: 16px;
+    background-color: var(--footer);
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.FlexNav1 {
+    display: flex;
+    padding-left: 10%;
+}
+
+
+.my-button {
+    border: none;
+    background-color: var(--purple);
+    color: white;
+    font-family: var(--reading);
+    padding: 5px 20px;
+    margin: 60px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    text-decoration: none;
+}
+
+.button-container {
+    width: 200px;
+    display: flex;
+    margin-left: calc(11%);
+}

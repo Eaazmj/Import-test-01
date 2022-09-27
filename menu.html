@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+
+<body id="menubackground">
+
+    <header>
+        <div class="topnav">
+            <a href="index.html" class="split"><img src="images/Logo-real.png" alt="logo" class="logo1"></a>
+            <a href="#trolly"><img src="images/shopping cart.png" alt="trolly" class="responsiveImg"></a>
+            <a href="#language">DK/EN</a>
+            <a href="contact.html">Contact</a>
+            <a href="shop.html">Shop</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="menu.html">Menu</a>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="btn-group">
+            <button class="tablinks" onclick="openMenu(event, 'Tea')" id="x">Tea</button>
+            <button class="tablinks" onclick="openMenu(event, 'Drinks')">Drinks</button>
+            <button class="tablinks" onclick="openMenu(event, 'Food')" id="defaultOpen">Food</button>
+            <button class="tablinks" onclick="openMenu(event, 'Sweets')">Sweets</button>
+        </div>
+
+        <!--content menu food-->
+
+        <div id="Tea" class="tabcontent">
+            <section class="columns">
+
+                <p>
+                <h3>Tea</h3>
+                Small glass of tea <element id="price">DKK 24.00</element> <br>
+                Large glass of tea <element id="price">DKK 34.00</element> <br>
+                Small pot of tea (2 cups) <element id="price">DKK 38.00</element> <br>
+                Large pot of tea (6 cups) <element id="price">DKK 72.00</element> <br>
+                <p>Refilling the tea water ½ price</p>
+                Small glass of iced tea (lemon or mango) <element id="price">DKK 24.00</element> <br>
+                Large glass of iced tea (lemon or mango) <element id="price">DKK 34.00</element> <br>
+                Small/large homemade chai latte <element id="price">DKK 39/46</element> <br>
+                <p>We have a large selection of teas.
+                    You will find the list of teas at the shelf up at the counter.</p>
+                <br>
+                </p>
+
+                <p>
+                <div id="rye">
+                    <h3>Black tea</h3>
+                </div>
+                Black tea <element id="price">DKK 35.00</element><br>
+                Black tea <element id="price">DKK 35.00</element><br>
+                Black tea <element id="price">DKK 38.00</element><br>
+                Black tea <element id="price">DKK 35.00</element><br>
+                Black tea <element id="price">DKK 25.00</element><br>
+                </p>
+
+                <p>
+                <h3>Green tea</h3>
+                Green tea (sencha, cherry blosom) <br>
+                Green tea <element id="price">DKK 88.00</element><br>
+                Green tea <element id="price">DKK 98.00</element><br>
+                Green tea <element id="price">DKK 88.00</element><br>
+                Green tea <element id="price">DKK 42.00</element><br>
+                </p>
+            </section>
+        </div>
+
+        <div id="Drinks" class="tabcontent">
+            <section class="columns">
+                <p>
+                <h3>Coffee</h3>
+                Espresso (only made as a double) <element id="price">DKK 28.00</element><br>
+                Americano Single <element id="price">DKK 26.00</element><br>
+                Americano Double <element id="price">DKK 36.00</element><br>
+                Cortado <element id="price">DKK 30.00</element><br>
+                Cappuccino <element id="price">DKK 39.00</element><br>
+                Cafe au lait <element id="price">DKK 39.00</element><br>
+                Small Cafe latte (mini or whole milk) <element id="price">DKK 39.00</element><br>
+                Large Cafe latte (mini or whole milk) <element id="price">DKK 46.00</element><br>
+                Extra shot of espresso <element id="price">DKK 12.00</element><br>
+                Small kafao (latte w/cocoa) <element id="price">DKK 45.00</element><br>
+                Large kafao (latte w/cocoa) <element id="price">DKK 52.00</element><br>
+                Licorice latte (licorice syrup & milk) <element id="price">DKK 22.00</element><br>
+                </p>
+
+                <p>
+                <h3>Cold Coffee</h3>
+                Small iced latte with optional syrup <element id="price">DKK 42.00</element><br>
+                Large iced latte with optional syrup <element id="price">DKK 48.00</element><br>
+                Small deluxe iced latte w/vanilla ice cream/whipped cream <br>
+                <element id="price">DKK 48.00</element><br>
+                Large deluxe iced latte w/vanilla ice cream/whipped cream <br>
+                <element id="price">DKK 54.00</element><br>
+                Coffee syrup: <element id="price">DKK 8.00</element><br>
+                chocolate – vanilla – hazelnut
+                irish cream – tiramisu – caramel
+                </p>
+
+                <p>
+                <h3>Cocoa</h3>
+                Small/large hot cocoa with whipped cream <element id="price">DKK 39/45</element><br>
+                Small/Large gl. cold cocoa milk <element id="price">DKK 16/30</element><br>
+                Small cold cocoa deluxe (with vanilla ice cream) <element id="price">DKK 44.00</element><br>
+                Large cold cocoa deluxe (with vanilla ice cream) <element id="price">DKK 50.00</element><br>
+                <br><br>
+                </p>
+
+                <p>
+                <div id="rye">
+                    <h3>Chocolate</h3>
+                </div>
+                Small hot chocolate <element id="price">DKK 42.00</element><br>
+                Large hot chocolate <element id="price">DKK 52.00</element><br>
+                We only use valrhona in our chocolate, very rich chocolate flavor.
+                Choose between light, dark or mixed light and dark.
+                </p>
+
+                <p>
+                <h3>Milk & juice & Smoothies</h3>
+                Freshly squeezed orange juice <element id="price">DKK 45.00</element><br>
+                Baby glass mini or whole milk <element id="price">DKK 6.00</element><br>
+                Small glass of milk/juice orange or apple <element id="price">DKK 12.00</element><br>
+                Large glass of milk/juice orange or apple <element id="price">DKK 22.00</element><br>
+                Smoothies raspberry/strawberry, mango/pineapple, strawberry/banana <element id="price">DKK 45.00
+                </element><br>
+                </p>
+
+                <p>
+                <h3>Non-alcoholic beer (large selection)</h3>
+                25 cl <element id="price">DKK 26.00</element><br>
+                33cl <element id="price">DKK 39.00</element><br>
+                50cl <element id="price">DKK 55.00</element><br>
+                Cool Ginger Beer 25cl <element id="price">DKK 40.00</element><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                </p>
+            </section>
+        </div>
+
+        <div id="Food" class="tabcontent">
+
+            <section class="columns">
+                <p>
+                <h3>Breakfast set</h3>
+                <p>
+                <h4>"The moderate"</h4>
+                </p>
+                1 roll, cheese, deli meat, butter, jam, fruit/vegetables, orange or apple juice, (croissant or whole
+                wheat croissant or rye bread or morning cake (Spandauer cream, snail or nougat croissant), filter coffee
+                or a small pot of tea.
+                <br>
+                <element id="price">DKK 72.00</element><br>
+
+                <p>
+                <h4>"The adult"</h4>
+                </p>
+                2 rolls, 1 rye bread, cheese, brie, deli meat, butter, jam, fruit/vegetables, (croissant or whole wheat
+                croissant or rye bread or morning cake (Spandauer cream, snail or nougat croissant), orange or apple
+                juice, filter coffee or small pot of tea.
+                <element id="price">DKK 92.00</element>
+                </p>
+
+                <p>
+                <h3>Small breakfast</h3>
+                Soft-boiled egg with rye bread <element id="price">DKK 12/18</element><br>
+                Freshly squeezed orange juice <element id="price">DKK 22.00</element><br>
+                Natural yoghurt with muesli & syrup <element id="price">DKK 19.00</element><br>
+                Scrambled eggs <element id="price">DKK 22.00</element><br>
+                Scrambled eggs w/rye bread or bacon <element id="price">DKK 26.00</element><br>
+                Scrambled eggs with rye bread & bacon <element id="price">DKK 32.00</element>
+                </p>
+
+
+                <p>
+                <div id="rye">
+                    <h3>Rye bread</h3>
+                </div>
+                Rye bread with eggs & prawns <element id="price">DKK 35.00</element> <br>
+                Rye bread with salmon or fish meatball <element id="price">DKK 35.00</element><br>
+                Rye bread with plaice fillet <element id="price">DKK 38.00</element><br>
+                Rye bread w/meatball & red cabbage <element id="price">DKK 35.00</element><br>
+                Rye bread w/cheese or egg/tomato <element id="price">DKK 25.00</element><br>
+                Rye bread with liver pâté <element id="price">DKK 18.00</element><br>
+                Rye bread w/salami or sausage roll <element id="price">DKK 25.00</element><br>
+                Rye bread with the vet's dinner <element id="price">DKK 35.00</element><br>
+                </p>
+
+                <p>
+                <h3>Soup</h3>
+                Soup with bread (curry or tomato) <element id="price">DKK 59.00</element><br>
+                Children's size soup w/bread <element id="price">DKK 35.00</element><br>
+                </p>
+
+                <p>
+                <h3>Food tarts & salad</h3>
+                Homemade leek tart with salad<br>
+                (pasta base, melted cheese & bacon) <element id="price">DKK 88.00</element><br>
+                Portion pie w/salad & bread<br>
+                (spinach/goat cheese or quiche lorraine) <element id="price">DKK 88.00</element><br>
+                Portion tart with salmon & sorrel <element id="price">DKK 98.00</element><br>
+                Salad w/chicken/bacon & bread <element id="price">DKK 88.00</element><br>
+                Homemade potato salad & delle <element id="price">DKK 42.00</element><br>
+                </p>
+            </section>
+        </div>
+
+        <div id="Sweets" class="tabcontent">
+            <section class="columns">
+                <p>
+                <h3>Pies & cakes</h3>
+                Tart with whipped cream or creme fraiche <element id="price">DKK 38.00</element><br>
+                Brownie with whipped cream or creme fraiche <element id="price">DKK 25.00</element><br>
+                Homemade Cookie <element id="price">DKK 20.00</element><br>
+                Flap Jack <element id="price">DKK 20.00</element><br>
+                Homemade truffle <element id="price">DKK 18.00</element><br>
+                Breakfast cake (freshly baked) <element id="price">DKK 22.00</element><br>
+                Cookie plate (homemade) <element id="price">DKK 26.00</element><br>
+                Cake festival <br>
+                (4 different small pieces of pie that we select) <element id="price">DKK 42.00</element><br>
+                General croissant/whole wheat cros/nougat cros <br>
+                <element id="price">DKK 18/22/22</element><br>
+                Small/Large fruit plate <element id="price">DKK 25/42</element><br>
+                </p>
+
+                <p>
+                <h3>Pancakes</h3>
+                Pancake with sugar <element id="price">DKK 16.00</element><br>
+                Pancake with jam <element id="price">DKK 24.00</element><br>
+                Pancake with syrup etc. Nutella <element id="price">DKK 24.00</element><br>
+                Pancake w/vanilla ice cream & chocolate sauce <element id="price">DKK 26.00</element><br>
+                </p>
+
+                <p>
+                <div id="rye">
+                    <h3>Ice cream</h3>
+                </div>
+                1 scoop <element id="price">DKK 24</element><br>
+                2 scoops <element id="price">DKK 32</element><br>
+                3 scoops <element id="price">DKK 40</element><br>
+                4 scoops <element id="price">DKK 48</element><br>
+                Soft ice (vanilla or lemon sorbet or licorice/raspberry) <br>
+                <element id="price">DKK 35.00</element><br>
+                Frozen yogurt (wood berries or many/passion) <element id="price">DKK 35.00</element><br>
+                Children's rocket ice cream w/surprise <br>
+                (vanilla w/chocolate pieces)<element id="price"> DKK 36.00</element><br>
+                Milkshakes with whipped cream & topping/sauce <element id="price">DKK 48.00</element><br>
+                </p>
+
+                <p>
+                <h3>Belgian waffles</h3>
+                With ice cream/whipped cream/sprinkles/sauce <element id="price">DKK 45.00</element><br>
+                With soft ice/whipped cream/sprinkles/sauce <element id="price">DKK 45.00</element><br>
+                <br><br>
+                </p>
+            </section>
+        </div>
+        <footer id="my-footer">
+
+        </footer>
+
+    </main>
+
+
+    <script src="js/js.js">
+    </script>
+</body>
+
+</html>

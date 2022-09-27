@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* colours */
+    --footer: #fae2bcab;
+    --white: white;
+    --main: #fae2bc;
+    --hover: white;
+    --text: black;
+
+    /* fonts */
+    --reading: "Calibri";
+    --headings: "Centaur";
+    --weclome: "Edwardian Script ITC";
+}
+
+/* header */
+/* Create a top navigation bar with a black background color  */
+
+.topnav {
+    background-color: var(--main);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    color: var(--text);
+    font-family: var(--reading);
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: var(--hover);
+    color: var(--text);
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+    float: left;
+    color: white;
+}
+
+.responsiveImg {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+/*image*/
+.logo1 {
+    display: flex;
+    width: 45%;
+    height: auto;
+}
+
+/*end of the header*/
+
+/*menu page specific code*/
+
+#menubackground {
+    background-image: url("../images/Menu-copy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.btn-group button {
+    background-color: rgba(255, 255, 255, 0);
+    /* Green background */
+    border: 0px;
+    /* Green border */
+    color: var(--text);
+    /* White text */
+    padding: 31px 129px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    float: left;
+    /* Float the buttons side by side */
+    margin-top: 83px;
+    margin-right: 3px;
+    font-size: 24px;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: var(--purple);
+    color: var(--main);
+}
+
+.btn-group button.active {
+    background-color: var(--purple);
+}
+
+.tabcontent {
+    display: none;
+}
+
+#x {
+    margin-left: 120px;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: var(--headings);
+    color: var(--purple);
+    font-weight: bold;
+    text-align: left;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+p {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#price {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#rye {
+    padding-top: 2px;
+}
+
+
+.columns {
+    column-count: 2;
+    font-family: var(--reading);
+    font-size: 24px;
+    text-align: left;
+    color: var(--text);
+    margin-left: 120px;
+    margin-right: 120px;
+    column-gap: 50px;
+}
+
+/*footer*/
+
+#footer {
+    margin-bottom: 0px;
+    margin-top: 150px;
+    width: auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--reading);
+    font-size: 16px;
+    background-color: var(--footer);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
